@@ -1,0 +1,67 @@
+
+.fundo{
+    background-image: url('https://images8.alphacoders.com/125/thumb-1920-1250934.jpg');
+    height: 100vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+.nome{
+    position: fixed;     /* Fixa na tela */
+    bottom: 10px;        /* 10px acima da parte inferior */
+    right: 10px;         /* 10px afastado da borda direita */
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align:right;
+    color: #cf5678;
+
+}
+
+.textocalc{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #cf5678;
+    
+}
+.calculadora{
+    position: absolute;
+    background-color: #fbc2d2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding: 20px; /*  distância entre os elementos e a borda  */
+    
+}
+
+.botao {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: #ec9ab1;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.botao:hover{
+    background-color: aliceblue;
+}
+
+#resultado{
+
+    background-color: #ffffff;
+    width: 205px;
+    height: 30px;
+    margin: 5px;
+    margin-left: 8px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
